@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplayer Sketch Guesser</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Multiplayer Sketch Guesser</h1>
+    <canvas id="drawingCanvas" width="500" height="500"></canvas>
+    <input type="text" id="guessInput" placeholder="Guess the word..." />
+    <button id="sendGuess">Guess</button>
+    <p id="wordHint"></p>
+    <p id="scoreBoard"></p>
+  </div>
+
+  <script src="https://cdn.socket.io/4.4.0/socket.io.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
